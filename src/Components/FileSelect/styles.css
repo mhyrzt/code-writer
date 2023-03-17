@@ -1,0 +1,12 @@
+.file-selector {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.file-selector > div {
+    width: 40vw;
+}

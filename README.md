@@ -1,7 +1,7 @@
 # Code Writer 👨‍💻
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 Welcome to this React-based app, designed to take your programming videos to the next level! The app lets you add a beautiful and realistic typing effect to your videos, with customizable typing speeds for each line. It supports most programming languages and offers syntax highlighting to make your code pop on the screen. And if you're looking to add even more authenticity, the app even supports terminal simulation!
 
