@@ -1,7 +1,10 @@
 import "./App.css";
 import React from "react";
-import FileSelect from "./Components/FileSelect";
+
+import Code from "./Components/Code";
 import Header from "./Components/Header";
+import FileSelect from "./Components/FileSelect";
+
 function App() {
 	const [code, setCode] = React.useState({
 		name: "",
@@ -11,11 +14,7 @@ function App() {
 		<div>
 			<Header />
 			<FileSelect onLoad={setCode} />
-
-			<div>
-				<pre>{code.name}</pre>
-				<pre>{code.text}</pre>
-			</div>
+			<Code fileName={code.name} codeText={code.text} />
 		</div>
 	);
 }
