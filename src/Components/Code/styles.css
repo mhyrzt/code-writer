@@ -1,3 +1,4 @@
-.code-container {
-    margin: 10%;
+.code-viewer {
+    min-height: 600px;
+    max-height: 600px;
 }

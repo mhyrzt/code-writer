@@ -2,16 +2,12 @@ import "./styles.css";
 
 import React from "react";
 
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import * as styles from "react-syntax-highlighter/dist/esm/styles/prism";
-
 import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
 function Code({ fileName, codeText, ...props }) {
-	console.log(SyntaxHighlighter.supportedLanguages);
-	console.log(Object.keys(styles));
 	return (
-		<div>
+		<div className="code-viewer">
 			<SyntaxHighlighter
 				style={oneDark}
 				customStyle={{
@@ -30,6 +26,7 @@ function Code({ fileName, codeText, ...props }) {
 					marginTop: 0,
 					borderTopLeftRadius: 0,
 					borderTopRightRadius: 0,
+                    height: "inherit"
 				}}
 			>
 				{codeText}
